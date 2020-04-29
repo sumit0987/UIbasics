@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <h1>HTML5 Demo</h1>
+        </head>
+        <body>
+            <article style="width: 50%">this is article.this is articlethis is articlethis is articlethis is articlethis is article.this is article.this is article.this is article</article>
+            <hr/>
+            <form autocomplete="on">
+                First name :<input type="text" name="fname" placeholder="Enter first name"  pattern="[A-Za-z]+"/>
+                <br />
+                <br />
+                Last name :<input type="text" name="lname"placeholder="Enter first name"  />
+                <br />
+                <br />
+                Gender :<input type="radio" name="gender" value="male" />Male
+                <input type="radio" name="gender" value="female" />Female
+                <input type="radio" name="gender" value="others" />Others
+                <br />
+                <br />
+                Date Of Birth :<input type="date" name="dob" />
+                <br />
+                <br />
+                Address :<textarea cols="50" rows="6" name="address" placeholder="Max 100 characters" maxlength="100"></textarea>
+                <br />
+                <br />
+                Country :<select >
+                            <option value="">--select--</option>
+                            <option value="India">India</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Others">Others</option>
+                         </select>
+                         <br /><br />
+                City :<input list="city" >
+                        <datalist id="city">
+                            <option value="Hyderabad">
+                            <option value="Mumbai">
+                            <option value="New Delhi">
+                            <option value="Bengaluru">
+                        </datalist>
+                <br />
+                <br />
+                Hobbies :
+                <select multiple>
+                    <option value="Swimming">Swimming</option>
+                    <option value="Indoor games">Indoor games</option>
+                    <option value="Outdoor games">Outdoor games</option>
+                    <option value="Computer games">Computer games</option>
+                    <option value="reading">reading</option>
+                    <option value="problem solving">problem solving</option>
+                </select>
+                <br />
+                <br />
+                Domain Exp :<input type="checkbox" name="domains" value="on" />Retail
+                            <input type="checkbox" name="domains" value="on" />Banking
+                            <input type="checkbox" name="domains" value="on" />Insurance
+                            <input type="checkbox" name="domains" value="on" />Networking
+                <br />
+                <br />
+                <input type="submit" name="submit" />
+
+            </form>
+        </body>
+    </html>
