@@ -1,0 +1,25 @@
+body{
+    background-color:cornflowerblue;
+}
+
+#header h1{
+    color: aliceblue;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#formbody{
+    text-align: center;
+}
+
+#formbody input,select{
+    width: 200px;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer submit,button{
+    width:60px;
+}

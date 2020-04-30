@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="userinfo.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>user information</h1>
+        </div>
+            <form autocomplete="on">
+                <div id="formbody">
+                <input type="text" name="name" placeholder="Enter name"  pattern="[A-Za-z]+" autofocus />
+                <br />
+                <input type="text" name="email" placeholder="Enter email" pattern="[a-z0-9._]+@[a-z]+\.[a-z]{3}$"/>
+                <br />
+      
+                <input list="skillset" >
+                        <datalist id="skillset">
+                            <option value="Java">
+                            <option value="Angular">
+                            <option value="Spring Boot">
+                            <option value="Microservices">
+                            <option value="Spring">
+                            <option value="Typesript">
+                            <option value="CSS">
+                        </datalist>
+                <br />
+                
+                <select multiple style="text-align: left">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Kannada">Kannada</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="German">German</option>
+                </select>
+                <br />
+                
+                <input type="number" name="age" placeholder="Age"  step="5" min="1"/>
+                <br />
+                
+                <input type="text" name="pannumber" placeholder="PAN No"  pattern="[A-Za-z0-9]+" />
+                </div>
+                <br />
+                
+            <div id="footer">
+                <input type="submit" name="submit" value="Submit" />
+                <input type="button" name="Reset" value="Reset"/>
+            </div>
+            </form>
+    </body>
+</html>
