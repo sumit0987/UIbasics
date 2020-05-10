@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(cornflowerblue,white);
+    padding: 10px 10px;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+header button{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+table,tr,td{
+    border: solid;
+    padding: 10px 15px;
+}

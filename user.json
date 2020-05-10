@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "sumit",
+      "userMobile": 7878768899,
+      "userSapId": 51867890,
+      "userEmail": "sumit.k@hcl.com"
+    },
+    {
+      "id": 2,
+      "userName": "chandan",
+      "userMobile": 9910094399,
+      "userSapId": 65587680,
+      "userEmail": "chandan.kumar@hcl.com"
+    },
+    {
+      "id": 3,
+      "userName": "anand",
+      "userMobile": 9165780956,
+      "userSapId": 51863467,
+      "userEmail": "anand.mishra@hcl.com"
+    },
+    {
+      "id": 4,
+      "userName": "hero",
+      "userMobile": 456784567,
+      "userSapId": 876,
+      "userEmail": "xyz@hcl.com"
+    },
+    {
+      "userName": "hjshjgs",
+      "userMobile": "6755765678",
+      "userSapId": "87689067",
+      "userEmail": "abc.singh@hcl.com",
+      "id": 5
+    }
+  ]
+}
