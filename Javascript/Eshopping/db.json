@@ -1,0 +1,331 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "sumit",
+      "userMobile": "7878768856",
+      "userAddress": "51867890",
+      "userEmail": "sumit.k@hcl.com",
+      "userPassword": "Welcome2ui"
+    },
+    {
+      "username": "sumitkr",
+      "userMobile": "9910094399",
+      "userAddress": "house no 11",
+      "userEmail": "sasa@hcl.com",
+      "userPassword": "1qaz2wsx",
+      "id": 2
+    },
+    {
+      "username": "sumit",
+      "userMobile": "9910094399",
+      "userRole": "patient",
+      "userEmail": "sumit.k@hcl.com",
+      "userPassword": "DrzAhP1Z",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "iphone 8",
+      "price": "35000",
+      "description": "High end smart phone",
+      "ratings": "4.5"
+    },
+    {
+      "id": 2,
+      "productName": "HCL Laptop",
+      "price": "40000",
+      "description": "Business laptop",
+      "ratings": "5"
+    },
+    {
+      "id": 3,
+      "productName": "one plus 8",
+      "price": "45000",
+      "description": "256 GB",
+      "ratings": "4"
+    },
+    {
+      "id": 4,
+      "productName": "Juicer",
+      "price": "4000",
+      "description": "juicer and grinder",
+      "ratings": "3.5"
+    },
+    {
+      "id": 5,
+      "productName": "Macbook",
+      "price": "90000",
+      "description": "personal laptop",
+      "ratings": "4.3"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "orderDate": "24 May 2020",
+      "orderPrice": "75000",
+      "address": "house no 11",
+      "products": [
+        {
+          "id": 2,
+          "productName": "HCL Laptop",
+          "price": "35000",
+          "description": "Business laptop",
+          "ratings": "5"
+        },
+        {
+          "id": 1,
+          "productName": "iphone 8",
+          "price": "40000",
+          "description": "High end samrt phone",
+          "ratings": "4.5"
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T14:46:00.761Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "1",
+          "productName": "iphone 8",
+          "price": "35000",
+          "productDesc": "High end samrt phone",
+          "quantity": "4.5",
+          "id": 1
+        },
+        {
+          "productId": "2",
+          "productName": "HCL Laptop",
+          "price": "35000",
+          "productDesc": "Business laptop",
+          "quantity": "5",
+          "id": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T14:50:36.529Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "1",
+          "productName": "iphone 8",
+          "price": "35000",
+          "productDesc": "High end samrt phone",
+          "quantity": "4.5",
+          "id": 1
+        },
+        {
+          "productId": "2",
+          "productName": "HCL Laptop",
+          "price": "35000",
+          "productDesc": "Business laptop",
+          "quantity": "5",
+          "id": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:19:29.724Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "2",
+          "productName": "HCL Laptop",
+          "price": "40000",
+          "productDesc": "Business laptop",
+          "quantity": "5",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:27:37.512Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "3",
+          "productName": "one plus 8",
+          "price": "45000",
+          "productDesc": "256 GB",
+          "quantity": "4",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:29:22.030Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "3",
+          "productName": "one plus 8",
+          "price": "45000",
+          "productDesc": "256 GB",
+          "quantity": "4",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:31:52.550Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "3",
+          "productName": "one plus 8",
+          "price": "45000",
+          "productDesc": "256 GB",
+          "quantity": "4",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:34:59.441Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "4",
+          "productName": "Juicer",
+          "price": "4000",
+          "productDesc": "juicer and grinder",
+          "quantity": "3.5",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:36:51.607Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "1",
+          "productName": "iphone 8",
+          "price": "35000",
+          "productDesc": "High end smart phone",
+          "quantity": "4.5",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:39:35.528Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "5",
+          "productName": "Macbook",
+          "price": "90000",
+          "productDesc": "personal laptop",
+          "quantity": "4.3",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:41:55.141Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "3",
+          "productName": "one plus 8",
+          "price": "45000",
+          "productDesc": "256 GB",
+          "quantity": "4",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:46:01.669Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "5",
+          "productName": "Macbook",
+          "price": "90000",
+          "productDesc": "personal laptop",
+          "quantity": "4.3",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "orderDate": "2020-05-13T19:47:07.928Z",
+      "orderPrice": "80000",
+      "address": "house no 11",
+      "products": [
+        {
+          "productId": "4",
+          "productName": "Juicer",
+          "price": "4000",
+          "productDesc": "juicer and grinder",
+          "quantity": "3.5",
+          "userId": 2,
+          "id": 1
+        }
+      ],
+      "id": 14
+    }
+  ],
+  "cartitems": [
+    {
+      "productId": "1",
+      "productName": "iphone 8",
+      "price": "35000",
+      "productDesc": "High end samrt phone",
+      "quantity": "4.5",
+      "id": 1,
+      "userId": 2
+    }
+  ]
+}

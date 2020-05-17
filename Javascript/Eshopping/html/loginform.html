@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/login.css" />
+    </head>
+    <body>
+        <header>
+            <h1>E-Shopping cart</h1>
+            <button id="company" onclick="loadRegisterForm()">Register</button>
+            <!--<button id="username" onclick="contactus()">Contact Us</button>-->
+        </header>
+        <section>
+            <form>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" id="userName" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="password" pattern "(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        
+                <button type="submit" id="submit" onclick="loginaction()">Login</button>
+            </div>
+
+        </form>
+        </section>
+        <script type="text/javascript" src="../js/login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/registration.css" />
+    </head>
+    <body>
+        <header>
+            <h1>E-Shopping cart</h1>
+            <button id="company" onclick="loadRegisterForm()">Register</button>
+            <!--<button id="username" onclick="contactus()">Contact Us</button>-->
+        </header>
+        <section>
+            <form onsubmit="registeraction()">
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" id="userName" pattern="[A-Za-z ]+" required>
+                <label><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" id="userEmail" pattern="[A-Za-z0-9._%+-]*(@dbs.com|@hcl.com)" required>
+                <label><b>Phone Number</b></label>
+                <input type="text" placeholder="Enter Phone Number" id="userPhone" pattern="{10}" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" id="userPassword" required>
+                <label><b>Address</b></label>
+                <input type="text" placeholder="Enter Address" id="userAddress" required maxlength="100">
+        
+                <button type="submit" id="submit">Register</button>
+            </div>
+
+        </form>
+        </section>
+        <script type="text/javascript" src="../js/registration.js"></script>
+    </body>
+</html>
